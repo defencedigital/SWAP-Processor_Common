@@ -1,0 +1,127 @@
+case,rep,time,primary_entity_id,primary_entity_name,primary_entity_type,primary_entity_commander,primary_entity_level,primary_entity_affiliation,primary_entity_force,primary_x,primary_y,event_id,event_type,event_detail,secondary_entity_id,secondary_entity_name,secondary_entity_type,secondary_entity commander,secondary_entity_level,secondary_entity_affiliation,secondary_entity_force,secondary_x,secondary_y
+E2E test,complex test,0.0,game,game state,system,game,1,system,system - Force,,,status-3,status update,"{""status"":""starting""}",,,,,,,,,
+E2E test,complex test,0.1,t-b1,blue inf,infantry sect,t-b3,3,blue,blue force,10.7,12.2,loc-7,location update,"{""terrain"":""urban""}",,,,,,,,,
+E2E test,complex test,0.3,t-b3,blue inf comd,infantry comd sect,t-b5,2,blue,blue force,10.7,12.8,loc-9,location update,"{""terrain"":""urban""}",,,,,,,,,
+E2E test,complex test,0.7,t-r4,red apc,vehicle,t-r1,3,red,red - Force,3.2,1.5,loc-4,location update,"{""terrain"":""open"", ""status"":""waiting""}",,,,,,,,,
+E2E test,complex test,0.9,t-r3,red AT,AT sect,t-r7,2,red,red - Force,4.0,1.5,loc-3,location update,"{""terrain"":""open"", ""status"":""halted""}",,,,,,,,,
+E2E test,complex test,0.95,t-r6,red apc-3,vehicle,t-r3,3,red,red - Force,4.0,1.5,loc-6,location update,"{""terrain"":""open"", ""status"":""no_val""}",,,,,,,,,
+E2E test,complex test,1.1,t-r5,red apc-2,vehicle,t-r2,3,red,red - Force,3.6,1.5,loc-5,location update,"{""terrain"":""open"", ""status"":""waiting""}",,,,,,,,,
+E2E test,complex test,1.2,t-r1,red inf,infantry sect,t-r7,2,red,red - Force,3.2,1.5,loc-1,location update,"{""terrain"":""open"", ""status"":""halted""}",,,,,,,,,
+E2E test,complex test,1.3,t-r2,red inf-2,infantry sect,t-r7,2,red,red - Force,3.6,1.5,loc-2,location update,"{""terrain"":""open"", ""status"":""halted""}",,,,,,,,,
+E2E test,complex test,1.5,t-b2,blue inf-2,infantry sect,t-b3,3,blue,blue force,10.7,12.5,loc-8,location update,"{""terrain"":""urban""}",,,,,,,,,
+E2E test,complex test,1.6,t-b4,blue snpr,sniper pair,t-b5,2,blue,blue force,13.3,17.2,loc-10,location update,"{""terrain"":""urban"", ""no_key"":""hiding""}",,,,,,,,,
+E2E test,complex test,1.8,t-g1,green inf Alpha,infantry sect,t-b3,3,green,blue force,10.2,12.5,loc-11,location update,{},,,,,,,,,
+E2E test,complex test,1.85,t-g2,green inf Bravo,infantry sect,t-b3,3,green,blue force,10.3,12.7,loc-12,location update,{},,,,,,,,,
+E2E test,complex test,55.3,t-b1,blue inf,infantry sect,t-b3,3,blue,blue force,8.1,7.1,loc-19,location update,"{""terrain"":""obstacle"", ""status"":""bypassing""}",,,,,,,,,
+E2E test,complex test,56.0,t-b1,blue inf,infantry sect,t-b3,3,blue,blue force,8.3,6.4,loc-20,location update,"{""terrain"":""obstacle"", ""status"":""bypassing""}",,,,,,,,,
+E2E test,complex test,57.0,t-b1,blue inf,infantry sect,t-b3,3,blue,blue force,8.9,7.1,loc-21,location update,"{""terrain"":""obstacle"", ""status"":""bypassing""}",,,,,,,,,
+E2E test,complex test,98.3,t-r2,red inf-2,infantry sect,t-r7,2,red,red - Force,3.6,1.5,spot-11,spotted secondary,"{""level"":""detection""}",t-b1,blue inf,infantry sect,t-b3,3.0,blue,blue force,8.9,7.1
+E2E test,complex test,98.3,t-b1,blue inf,infantry sect,t-b3,3,blue,blue force,8.9,7.1,seen-11,seen by secondary,{},t-r2,red inf-2,infantry sect,t-r7,2.0,red,red - Force,3.6,1.5
+E2E test,complex test,99.0,t-b4,blue snpr,sniper pair,t-b5,2,blue,blue force,3.2,12.1,loc-16,location update,"{""terrain"":""open"", ""no_key"":""in_position""}",,,,,,,,,
+E2E test,complex test,99.1,t-r1,red inf,infantry sect,t-r7,2,red,red - Force,3.2,1.5,spot-10,spotted secondary,"{""level"":""detection""}",t-b2,blue inf-2,infantry sect,t-b3,3.0,blue,blue force,10.7,12.5
+E2E test,complex test,99.1,t-b2,blue inf-2,infantry sect,t-b3,3,blue,blue force,10.7,12.5,seen-10,seen by secondary,{},t-r1,red inf,infantry sect,t-r7,2.0,red,red - Force,3.2,1.5
+E2E test,complex test,100.2,t-r1,red inf,infantry sect,t-r7,2,red,red - Force,3.2,1.5,spot-9,spotted secondary,"{""level"":""detection""}",t-b1,blue inf,infantry sect,t-b3,3.0,blue,blue force,8.9,7.1
+E2E test,complex test,100.2,t-b1,blue inf,infantry sect,t-b3,3,blue,blue force,8.9,7.1,seen-9,seen by secondary,{},t-r1,red inf,infantry sect,t-r7,2.0,red,red - Force,3.2,1.5
+E2E test,complex test,102.0,t-b2,blue inf-2,infantry sect,t-b3,3,blue,blue force,4.6,4.9,loc-14,location update,"{""terrain"":""o_pe_n""}",,,,,,,,,
+E2E test,complex test,102.3,t-r1,red inf,infantry sect,t-r7,2,red,red - Force,3.2,1.5,spot-16,spotted secondary,"{""level"":""detection""}",t-g1,green inf Alpha,infantry sect,t-b3,3.0,green,blue force,10.2,12.5
+E2E test,complex test,102.3,t-g1,green inf Alpha,infantry sect,t-b3,3,green,blue force,10.2,12.5,seen-16,seen by secondary,{},t-r1,red inf,infantry sect,t-r7,2.0,red,red - Force,3.2,1.5
+E2E test,complex test,102.4,t-r2,red inf-2,infantry sect,t-r7,2,red,red - Force,3.6,1.5,spot-12,spotted secondary,"{""level"":""detection""}",t-b2,blue inf-2,infantry sect,t-b3,3.0,blue,blue force,4.6,4.9
+E2E test,complex test,102.4,t-b2,blue inf-2,infantry sect,t-b3,3,blue,blue force,4.6,4.9,seen-12,seen by secondary,{},t-r2,red inf-2,infantry sect,t-r7,2.0,red,red - Force,3.6,1.5
+E2E test,complex test,103.0,t-b1,blue inf,infantry sect,t-b3,3,blue,blue force,4.2,5.1,loc-13,location update,"{""terrain"":""o_p_e_n""}",,,,,,,,,
+E2E test,complex test,103.8,t-r3,red AT,AT sect,t-r7,2,red,red - Force,4.0,1.5,spot-15,spotted secondary,"{""level"":""detection""}",t-b3,blue inf comd,infantry comd sect,t-b5,2.0,blue,blue force,10.7,12.8
+E2E test,complex test,103.8,t-b3,blue inf comd,infantry comd sect,t-b5,2,blue,blue force,10.7,12.8,seen-15,seen by secondary,{},t-r3,red AT,AT sect,t-r7,2.0,red,red - Force,4.0,1.5
+E2E test,complex test,104.0,t-g1,green inf Alpha,infantry sect,t-b3,3,green,blue force,5.2,5.3,loc-17,location update,"{""status"":""advancing""}",,,,,,,,,
+E2E test,complex test,104.9,t-r3,red AT,AT sect,t-r7,2,red,red - Force,4.0,1.5,spot-13,spotted secondary,"{""level"":""detection""}",t-b1,blue inf,infantry sect,t-b3,3.0,blue,blue force,4.2,5.1
+E2E test,complex test,104.9,t-b1,blue inf,infantry sect,t-b3,3,blue,blue force,4.2,5.1,seen-13,seen by secondary,{},t-r3,red AT,AT sect,t-r7,2.0,red,red - Force,4.0,1.5
+E2E test,complex test,105.0,t-g2,green inf Bravo,infantry sect,t-b3,3,green,blue force,5.1,4.7,loc-18,location update,"{""status"":""advancing""}",,,,,,,,,
+E2E test,complex test,107.0,t-b3,blue inf comd,infantry comd sect,t-b5,2,blue,blue force,3.9,5.2,loc-15,location update,"{""terrain"":""o_p_en""}",,,,,,,,,
+E2E test,complex test,109.2,t-g1,green inf Alpha,infantry sect,t-b3,3,green,blue force,5.2,5.3,spot-7,spotted secondary,"{""level"":""recognition""}",t-r1,red inf,infantry sect,t-r7,2.0,red,red - Force,3.2,1.5
+E2E test,complex test,109.2,t-r1,red inf,infantry sect,t-r7,2,red,red - Force,3.2,1.5,seen-7,seen by secondary,{},t-g1,green inf Alpha,infantry sect,t-b3,3.0,green,blue force,5.2,5.3
+E2E test,complex test,110.1,t-b1,blue inf,infantry sect,t-b3,3,blue,blue force,4.2,5.1,spot-1,spotted secondary,"{""level"":""recognition""}",t-r1,red inf,infantry sect,t-r7,2.0,red,red - Force,3.2,1.5
+E2E test,complex test,110.1,t-r1,red inf,infantry sect,t-r7,2,red,red - Force,3.2,1.5,seen-1,seen by secondary,{},t-b1,blue inf,infantry sect,t-b3,3.0,blue,blue force,4.2,5.1
+E2E test,complex test,110.2,t-r3,red AT,AT sect,t-r7,2,red,red - Force,4.0,1.5,spot-14,spotted secondary,"{""level"":""detection""}",t-b2,blue inf-2,infantry sect,t-b3,3.0,blue,blue force,4.6,4.9
+E2E test,complex test,110.2,t-b2,blue inf-2,infantry sect,t-b3,3,blue,blue force,4.6,4.9,seen-14,seen by secondary,{},t-r3,red AT,AT sect,t-r7,2.0,red,red - Force,4.0,1.5
+E2E test,complex test,110.4,t-r3,red AT,AT sect,t-r7,2,red,red - Force,4.0,1.5,stop-6,stopped seeing secondary,"{""reason"":""grit_in_eye""}",t-b1,blue inf,infantry sect,t-b3,3.0,blue,blue force,4.2,5.1
+E2E test,complex test,111.2,t-b1,blue inf,infantry sect,t-b3,3,blue,blue force,4.2,5.1,spot-2,spotted secondary,"{""level"":""recognition""}",t-r2,red inf-2,infantry sect,t-r7,2.0,red,red - Force,3.6,1.5
+E2E test,complex test,111.2,t-r2,red inf-2,infantry sect,t-r7,2,red,red - Force,3.6,1.5,seen-2,seen by secondary,{},t-b1,blue inf,infantry sect,t-b3,3.0,blue,blue force,4.2,5.1
+E2E test,complex test,111.5,t-g2,green inf Bravo,infantry sect,t-b3,3,green,blue force,5.1,4.7,spot-8,spotted secondary,"{""level"":""recognition""}",t-r2,red inf-2,infantry sect,t-r7,2.0,red,red - Force,3.6,1.5
+E2E test,complex test,111.5,t-r2,red inf-2,infantry sect,t-r7,2,red,red - Force,3.6,1.5,seen-8,seen by secondary,{},t-g2,green inf Bravo,infantry sect,t-b3,3.0,green,blue force,5.1,4.7
+E2E test,complex test,112.2,t-r2,red inf-2,infantry sect,t-r7,2,red,red - Force,3.6,1.5,spot-17,spotted secondary,"{""level"":""detection""}",t-g2,green inf Bravo,infantry sect,t-b3,3.0,green,blue force,5.1,4.7
+E2E test,complex test,112.2,t-g2,green inf Bravo,infantry sect,t-b3,3,green,blue force,5.1,4.7,seen-17,seen by secondary,{},t-r2,red inf-2,infantry sect,t-r7,2.0,red,red - Force,3.6,1.5
+E2E test,complex test,112.3,t-b1,blue inf,infantry sect,t-b3,3,blue,blue force,4.2,5.1,spot-3,spotted secondary,"{""level"":""recognition""}",t-r3,red AT,AT sect,t-r7,2.0,red,red - Force,4.0,1.5
+E2E test,complex test,112.3,t-r3,red AT,AT sect,t-r7,2,red,red - Force,4.0,1.5,seen-3,seen by secondary,{},t-b1,blue inf,infantry sect,t-b3,3.0,blue,blue force,4.2,5.1
+E2E test,complex test,112.8,t-r1,red inf,infantry sect,t-r7,2,red,red - Force,3.2,1.5,stop-4,stopped seeing secondary,"{""reason"":""lost_sight""}",t-b1,blue inf,infantry sect,t-b3,3.0,blue,blue force,4.2,5.1
+E2E test,complex test,113.75,t-b2,blue inf-2,infantry sect,t-b3,3,blue,blue force,4.6,4.9,spot-4,spotted secondary,"{""level"":""recognition""}",t-r1,red inf,infantry sect,t-r7,2.0,red,red - Force,3.2,1.5
+E2E test,complex test,113.75,t-r1,red inf,infantry sect,t-r7,2,red,red - Force,3.2,1.5,seen-4,seen by secondary,{},t-b2,blue inf-2,infantry sect,t-b3,3.0,blue,blue force,4.6,4.9
+E2E test,complex test,113.9,t-r2,red inf-2,infantry sect,t-r7,2,red,red - Force,3.6,1.5,stop-5,stopped seeing secondary,"{""reason"":""fog""}",t-b2,blue inf-2,infantry sect,t-b3,3.0,blue,blue force,4.6,4.9
+E2E test,complex test,114.1,t-b2,blue inf-2,infantry sect,t-b3,3,blue,blue force,4.6,4.9,spot-5,spotted secondary,"{""level"":""recognition""}",t-r2,red inf-2,infantry sect,t-r7,2.0,red,red - Force,3.6,1.5
+E2E test,complex test,114.1,t-r2,red inf-2,infantry sect,t-r7,2,red,red - Force,3.6,1.5,seen-5,seen by secondary,{},t-b2,blue inf-2,infantry sect,t-b3,3.0,blue,blue force,4.6,4.9
+E2E test,complex test,114.7,t-b2,blue inf-2,infantry sect,t-b3,3,blue,blue force,4.6,4.9,spot-6,spotted secondary,"{""level"":""recognition""}",t-r3,red AT,AT sect,t-r7,2.0,red,red - Force,4.0,1.5
+E2E test,complex test,114.7,t-r3,red AT,AT sect,t-r7,2,red,red - Force,4.0,1.5,seen-6,seen by secondary,{},t-b2,blue inf-2,infantry sect,t-b3,3.0,blue,blue force,4.6,4.9
+E2E test,complex test,114.9,t-b4,blue snpr,sniper pair,t-b5,2,blue,blue force,3.2,12.1,spot-18,spotted secondary,"{""level"":""sighting"", ""status"":""identifying""}",t-r7,red hq,hq,t-r7,1.0,red,red - Force,,
+E2E test,complex test,115.1,t-b4,blue snpr,sniper pair,t-b5,2,blue,blue force,3.2,12.1,spot-19,spotted secondary,"{""level"":""confirmed"", ""status"":""targeting""}",t-r7,red hq,hq,t-r7,1.0,red,red - Force,,
+E2E test,complex test,115.1,t-r7,red hq,hq,t-r7,1,red,red - Force,,,seen-18,seen by secondary,"{"""":""""}",t-b4,blue snpr,sniper pair,t-b5,2.0,blue,blue force,3.2,12.1
+E2E test,complex test,116.3,t-b4,blue snpr,sniper pair,t-b5,2,blue,blue force,3.2,12.1,shot-18,shot,"{""shot_type"":""ranging""}",,,,,,,,,
+E2E test,complex test,118.0,t-b4,blue snpr,sniper pair,t-b5,2,blue,blue force,3.2,12.1,shot-19,shot,"{""shot_type"":""miss""}",,,,,,,,,
+E2E test,complex test,118.5,t-b4,blue snpr,sniper pair,t-b5,2,blue,blue force,3.2,12.1,shot-20,shot,"{""shot_type"":""miss""}",,,,,,,,,
+E2E test,complex test,119.0,t-b4,blue snpr,sniper pair,t-b5,2,blue,blue force,3.2,12.1,shot-21,shot,"{""shot_type"":""miss""}",,,,,,,,,
+E2E test,complex test,119.5,t-b4,blue snpr,sniper pair,t-b5,2,blue,blue force,3.2,12.1,shot-22,shot,"{""shot_type"":""kill""}",,,,,,,,,
+E2E test,complex test,119.8,t-b4,blue snpr,sniper pair,t-b5,2,blue,blue force,3.2,12.1,kill-17,kill,"{""weapon"":""sniper_rifle"", ""range"":""extreme""}",t-r7,red hq,hq,t-r7,1.0,red,red - Force,,
+E2E test,complex test,119.8,t-r7,red hq,hq,t-r7,1,red,red - Force,,,loss-17,loss,"{""status"":""finding_cover""}",t-b4,blue snpr,sniper pair,t-b5,2.0,blue,blue force,3.2,12.1
+E2E test,complex test,120.0,obj-blue,blue objective,system,game,2,system,system - Force,,,status-1,status update,"{""objective"":""complete""}",,,,,,,,,
+E2E test,complex test,120.0,t-b1,blue inf,infantry sect,t-b3,3,blue,blue force,4.2,5.1,shot-1,shot,"{""weapon"":""rifle"", ""rds"":""6""}",,,,,,,,,
+E2E test,complex test,120.2,t-b4,blue snpr,sniper pair,t-b5,2,blue,blue force,3.2,12.1,stop-7,stopped seeing secondary,"{""status"":""disengaging""}",t-r7,red hq,hq,t-r7,1.0,red,red - Force,,
+E2E test,complex test,120.5,t-b4,blue snpr,sniper pair,t-b5,2,blue,blue force,3.2,12.1,stop-8,stopped seeing secondary,"{""status"":""evading""}",t-r7,red hq,hq,t-r7,1.0,red,red - Force,,
+E2E test,complex test,120.7,t-b1,blue inf,infantry sect,t-b3,3,blue,blue force,4.2,5.1,stop-1,stopped seeing secondary,"{""cause"":""lost_sight""}",t-r1,red inf,infantry sect,t-r7,2.0,red,red - Force,3.2,1.5
+E2E test,complex test,120.9,t-r2,red inf-2,infantry sect,t-r7,2,red,red - Force,3.6,1.5,shot-11,shot,"{""weapon"":""rifle"", ""rds"":""9""}",,,,,,,,,
+E2E test,complex test,121.2,t-g1,green inf Alpha,infantry sect,t-b3,3,green,blue force,5.2,5.3,stop-3,stopped seeing secondary,"{""cause"":""forgot""}",t-r1,red inf,infantry sect,t-r7,2.0,red,red - Force,3.2,1.5
+E2E test,complex test,121.3,t-r1,red inf,infantry sect,t-r7,2,red,red - Force,3.2,1.5,shot-10,shot,"{""weapon"":""rifle"", ""rds"":""6""}",,,,,,,,,
+E2E test,complex test,121.5,t-r1,red inf,infantry sect,t-r7,2,red,red - Force,3.2,1.5,kill-5,kill,"{""weapon"":""rifle""}",t-b1,blue inf,infantry sect,t-b3,3.0,blue,blue force,4.2,5.1
+E2E test,complex test,121.5,t-b1,blue inf,infantry sect,t-b3,3,blue,blue force,4.2,5.1,loss-5,loss,"{""morale"":""good""}",t-r1,red inf,infantry sect,t-r7,2.0,red,red - Force,3.2,1.5
+E2E test,complex test,121.9,t-r2,red inf-2,infantry sect,t-r7,2,red,red - Force,3.6,1.5,kill-6,kill,"{""weapon"":""rifle""}",t-b2,blue inf-2,infantry sect,t-b3,3.0,blue,blue force,4.6,4.9
+E2E test,complex test,121.9,t-b2,blue inf-2,infantry sect,t-b3,3,blue,blue force,4.6,4.9,loss-6,loss,"{""morale"":""no_val""}",t-r2,red inf-2,infantry sect,t-r7,2.0,red,red - Force,3.6,1.5
+E2E test,complex test,122.1,t-b1,blue inf,infantry sect,t-b3,3,blue,blue force,4.2,5.1,shot-2,shot,"{""weapon"":""rifle"", ""rds"":""9""}",,,,,,,,,
+E2E test,complex test,122.3,t-b2,blue inf-2,infantry sect,t-b3,3,blue,blue force,4.6,4.9,stop-2,stopped seeing secondary,"{""cause"":""target_hiding""}",t-r1,red inf,infantry sect,t-r7,2.0,red,red - Force,3.2,1.5
+E2E test,complex test,123.5,t-b1,blue inf,infantry sect,t-b3,3,blue,blue force,4.2,5.1,shot-3,shot,"{""weapon"":""rifle"", ""rds"":""12""}",,,,,,,,,
+E2E test,complex test,123.6,t-b1,blue inf,infantry sect,t-b3,3,blue,blue force,4.2,5.1,kill-1,kill,"{""weapon"":""rifle""}",t-r1,red inf,infantry sect,t-r7,2.0,red,red - Force,3.2,1.5
+E2E test,complex test,123.7,t-r1,red inf,infantry sect,t-r7,2,red,red - Force,3.2,1.5,loss-1,loss,{},t-b1,blue inf,infantry sect,t-b3,3.0,blue,blue force,4.2,5.1
+E2E test,complex test,124.2,t-r3,red AT,AT sect,t-r7,2,red,red - Force,4.0,1.5,shot-12,shot,"{""weapon"":""AT"", ""rds"":""3""}",,,,,,,,,
+E2E test,complex test,124.6,t-b2,blue inf-2,infantry sect,t-b3,3,blue,blue force,4.6,4.9,shot-4,shot,"{""weapon"":""rifle"", ""rds"":""no_val""}",,,,,,,,,
+E2E test,complex test,125.6,t-r4,red apc,vehicle,t-r1,3,red,red - Force,3.2,1.5,shot-13,shot,"{""weapon"":""cannon"", ""rds"":""no_val""}",,,,,,,,,
+E2E test,complex test,125.7,t-r5,red apc-2,vehicle,t-r2,3,red,red - Force,3.6,1.5,shot-14,shot,"{""weapon"":""cannon"", ""rds"":""no_val""}",,,,,,,,,
+E2E test,complex test,125.9,t-b2,blue inf-2,infantry sect,t-b3,3,blue,blue force,4.6,4.9,shot-5,shot,"{""weapon"":""MG"", ""rds"":""40""}",,,,,,,,,
+E2E test,complex test,126.1,t-r5,red apc-2,vehicle,t-r2,3,red,red - Force,3.6,1.5,kill-7,kill,"{""weapon"":""cannon""}",t-b1,blue inf,infantry sect,t-b3,3.0,blue,blue force,4.2,5.1
+E2E test,complex test,126.1,t-b1,blue inf,infantry sect,t-b3,3,blue,blue force,4.2,5.1,loss-7,loss,"{""morale"":""good""}",t-r5,red apc-2,vehicle,t-r2,3.0,red,red - Force,3.6,1.5
+E2E test,complex test,126.2,t-b3,blue inf comd,infantry comd sect,t-b5,2,blue,blue force,3.9,5.2,shot-6,shot,"{""weapon"":""MG"", ""rds"":""30""}",,,,,,,,,
+E2E test,complex test,126.2,t-b2,blue inf-2,infantry sect,t-b3,3,blue,blue force,4.6,4.9,kill-2,kill,"{""weapon"":""rifle""}",t-r2,red inf-2,infantry sect,t-r7,2.0,red,red - Force,3.6,1.5
+E2E test,complex test,126.2,t-r5,red apc-2,vehicle,t-r2,3,red,red - Force,3.6,1.5,kill-8,kill,"{""weapon"":""cannon""}",t-b1,blue inf,infantry sect,t-b3,3.0,blue,blue force,4.2,5.1
+E2E test,complex test,126.2,t-b1,blue inf,infantry sect,t-b3,3,blue,blue force,4.2,5.1,loss-8,loss,"{""morale"":""good""}",t-r5,red apc-2,vehicle,t-r2,3.0,red,red - Force,3.6,1.5
+E2E test,complex test,126.3,t-r6,red apc-3,vehicle,t-r3,3,red,red - Force,4.0,1.5,shot-15,shot,"{""weapon"":""cannon"", ""rds"":""no_val""}",,,,,,,,,
+E2E test,complex test,126.3,t-r2,red inf-2,infantry sect,t-r7,2,red,red - Force,3.6,1.5,loss-2,loss,{},t-b2,blue inf-2,infantry sect,t-b3,3.0,blue,blue force,4.6,4.9
+E2E test,complex test,126.5,t-b3,blue inf comd,infantry comd sect,t-b5,2,blue,blue force,3.9,5.2,kill-3,kill,"{""weapon"":""MG""}",t-r3,red AT,AT sect,t-r7,2.0,red,red - Force,4.0,1.5
+E2E test,complex test,126.6,t-r3,red AT,AT sect,t-r7,2,red,red - Force,4.0,1.5,loss-3,loss,{},t-b3,blue inf comd,infantry comd sect,t-b5,2.0,blue,blue force,3.9,5.2
+E2E test,complex test,128.1,t-g1,green inf Alpha,infantry sect,t-b3,3,green,blue force,5.2,5.3,shot-7,shot,"{""weapon"":""rifle"", ""rds"":""9""}",,,,,,,,,
+E2E test,complex test,129.1,t-g1,green inf Alpha,infantry sect,t-b3,3,green,blue force,5.2,5.3,shot-8,shot,"{""weapon"":""rifle"", ""rds"":""9""}",,,,,,,,,
+E2E test,complex test,129.2,t-g2,green inf Bravo,infantry sect,t-b3,3,green,blue force,5.1,4.7,shot-9,shot,"{""weapon"":""LAW"", ""rds"":""1""}",,,,,,,,,
+E2E test,complex test,131.2,t-g2,green inf Bravo,infantry sect,t-b3,3,green,blue force,5.1,4.7,kill-4,kill,"{""weapon"":""LAW""}",t-r6,red apc-3,vehicle,t-r3,3.0,red,red - Force,4.0,1.5
+E2E test,complex test,131.3,t-r6,red apc-3,vehicle,t-r3,3,red,red - Force,4.0,1.5,loss-4,loss,{},t-g2,green inf Bravo,infantry sect,t-b3,3.0,green,blue force,5.1,4.7
+E2E test,complex test,132.3,t-r5,red apc-2,vehicle,t-r2,3,red,red - Force,3.6,1.5,shot-16,shot,"{""weapon"":""cannon"", ""rds"":""no_val""}",,,,,,,,,
+E2E test,complex test,132.5,t-r5,red apc-2,vehicle,t-r2,3,red,red - Force,3.6,1.5,kill-9,kill,"{""weapon"":""cannon""}",t-b1,blue inf,infantry sect,t-b3,3.0,blue,blue force,4.2,5.1
+E2E test,complex test,132.5,t-b1,blue inf,infantry sect,t-b3,3,blue,blue force,4.2,5.1,loss-9,loss,"{""morale"":""ok""}",t-r5,red apc-2,vehicle,t-r2,3.0,red,red - Force,3.6,1.5
+E2E test,complex test,132.7,t-r5,red apc-2,vehicle,t-r2,3,red,red - Force,3.6,1.5,kill-10,kill,"{""weapon"":""cannon""}",t-b1,blue inf,infantry sect,t-b3,3.0,blue,blue force,4.2,5.1
+E2E test,complex test,132.7,t-b1,blue inf,infantry sect,t-b3,3,blue,blue force,4.2,5.1,loss-10,loss,"{""morale"":""ok""}",t-r5,red apc-2,vehicle,t-r2,3.0,red,red - Force,3.6,1.5
+E2E test,complex test,132.8,t-r5,red apc-2,vehicle,t-r2,3,red,red - Force,3.6,1.5,kill-11,kill,"{""weapon"":""cannon""}",t-b1,blue inf,infantry sect,t-b3,3.0,blue,blue force,4.2,5.1
+E2E test,complex test,132.8,t-b1,blue inf,infantry sect,t-b3,3,blue,blue force,4.2,5.1,loss-11,loss,"{""morale"":""not_great""}",t-r5,red apc-2,vehicle,t-r2,3.0,red,red - Force,3.6,1.5
+E2E test,complex test,134.1,t-r5,red apc-2,vehicle,t-r2,3,red,red - Force,3.6,1.5,shot-17,shot,"{""weapon"":""cannon"", ""rds"":""no_val""}",,,,,,,,,
+E2E test,complex test,134.5,t-r5,red apc-2,vehicle,t-r2,3,red,red - Force,3.6,1.5,kill-12,kill,"{""weapon"":""cannon""}",t-b1,blue inf,infantry sect,t-b3,3.0,blue,blue force,4.2,5.1
+E2E test,complex test,134.5,t-b1,blue inf,infantry sect,t-b3,3,blue,blue force,4.2,5.1,loss-12,loss,"{""morale"":""poor""}",t-r5,red apc-2,vehicle,t-r2,3.0,red,red - Force,3.6,1.5
+E2E test,complex test,134.8,t-r5,red apc-2,vehicle,t-r2,3,red,red - Force,3.6,1.5,kill-13,kill,"{""weapon"":""cannon""}",t-b1,blue inf,infantry sect,t-b3,3.0,blue,blue force,4.2,5.1
+E2E test,complex test,134.8,t-b1,blue inf,infantry sect,t-b3,3,blue,blue force,4.2,5.1,loss-13,loss,"{""morale"":""really_bad""}",t-r5,red apc-2,vehicle,t-r2,3.0,red,red - Force,3.6,1.5
+E2E test,complex test,135.1,t-r5,red apc-2,vehicle,t-r2,3,red,red - Force,3.6,1.5,kill-14,kill,"{""weapon"":""cannon""}",t-b1,blue inf,infantry sect,t-b3,3.0,blue,blue force,4.2,5.1
+E2E test,complex test,135.1,t-b1,blue inf,infantry sect,t-b3,3,blue,blue force,4.2,5.1,loss-14,loss,"{""morale"":""extremely_bad""}",t-r5,red apc-2,vehicle,t-r2,3.0,red,red - Force,3.6,1.5
+E2E test,complex test,135.2,t-r5,red apc-2,vehicle,t-r2,3,red,red - Force,3.6,1.5,kill-15,kill,"{""weapon"":""cannon""}",t-b1,blue inf,infantry sect,t-b3,3.0,blue,blue force,4.2,5.1
+E2E test,complex test,135.2,t-b1,blue inf,infantry sect,t-b3,3,blue,blue force,4.2,5.1,loss-15,loss,"{""morale"":""no_val""}",t-r5,red apc-2,vehicle,t-r2,3.0,red,red - Force,3.6,1.5
+E2E test,complex test,135.4,t-r5,red apc-2,vehicle,t-r2,3,red,red - Force,3.6,1.5,kill-16,kill,"{""weapon"":""cannon""}",t-g1,green inf Alpha,infantry sect,t-b3,3.0,green,blue force,5.2,5.3
+E2E test,complex test,135.4,t-g1,green inf Alpha,infantry sect,t-b3,3,green,blue force,5.2,5.3,loss-16,loss,"{""morale"":""no_val""}",t-r5,red apc-2,vehicle,t-r2,3.0,red,red - Force,3.6,1.5
+E2E test,complex test,136.2,obj-red,red objective,system,game,2,system,system - Force,,,status-2,status update,"{""objective"":""failed""}",,,,,,,,,
+E2E test,complex test,140.1,game,game state,system,game,1,system,system - Force,,,status-4,status update,"{""status"":""complete""}",,,,,,,,,

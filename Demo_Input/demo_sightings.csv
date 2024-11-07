@@ -1,0 +1,25 @@
+time,spotting callsign,spotted callsign,range,type
+20,tb,tr,2.8,recognition
+21,tb,tr,2.8,detection
+22,tb,tr,2.8,identification
+24,tr,tb,2.8,recognition
+25,tr,tb,2.8,detection
+26,tr,tb,2.8,identification
+25,tr2,tb3,2.8,recognition
+26,tr2,tb3,2.8,detection
+27,tr2,tb3,2.8,identification
+27,tb3,tr2,2.8,recognition
+28,tb3,tr2,2.8,detection
+29,tb3,tr2,2.8,identification
+28,tb2,tr2,2.8,recognition
+29,tb2,tr2,2.8,detection
+30,tb2,tr2,2.8,identification
+55,tr2,tb,2.8,recognition
+56,tr2,tb,2.8,detection
+57,tr2,tb,2.8,identification
+56,tb,tr2,2.8,recognition
+57,tb,tr2,2.8,detection
+58,tb,tr2,2.8,identification
+63,tb2,tr2,2.8,recognition
+64,tb2,tr2,2.8,detection
+65,tb2,tr2,2.8,identification

@@ -1,0 +1,15 @@
+case,rep,time,item,components,combat_power,event_id
+test,basic-ent-tbl,0.0,blue,10,10,none
+test,basic-ent-tbl,0.0,blue force,10,10,none
+test,basic-ent-tbl,0.0,red,10,10,none
+test,basic-ent-tbl,0.0,red force,10,10,none
+test,basic-ent-tbl,11.0,red,9,9,loss-1
+test,basic-ent-tbl,11.0,red force,9,9,loss-1
+test,basic-ent-tbl,12.0,red,8,8,loss-2
+test,basic-ent-tbl,12.0,red force,8,8,loss-2
+test,basic-ent-tbl,14.0,red,7,7,loss-3
+test,basic-ent-tbl,14.0,red force,7,7,loss-3
+test,basic-ent-tbl,22.0,red,6,6,loss-4
+test,basic-ent-tbl,22.0,red force,6,6,loss-4
+test,basic-ent-tbl,23.2,red,5,5,loss-5
+test,basic-ent-tbl,23.2,red force,5,5,loss-5

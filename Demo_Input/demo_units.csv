@@ -1,0 +1,6 @@
+callsign,name,type,components,commander,force colour
+tb,test_blue,test unit,3,tb,blue
+tr,test_red,test unit,3,tr,red
+tb2,test_blue,test unit,3,tb,blue
+tb3,test_blue,test unit,3,tb,blue
+tr2,test_red,test unit,3,tr,red

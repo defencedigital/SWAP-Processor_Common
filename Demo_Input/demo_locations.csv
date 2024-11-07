@@ -1,0 +1,23 @@
+time,callsign,x coord,y coord,terrain,speed,status
+5,tb,0,0,forest,5,moving
+10,tr,10,10,urban,5,moving
+15,tb,4,4,open,0,stopped
+10,tr2,10,10,urban,5,moving
+11,tb3,0,0,forest,5,moving
+12,tb2,0,0,forest,5,moving
+20,tr,6,6,open,0,stopped
+23,tb3,7,4,open,0,stopped
+25,tr2,9,5,open,0,stopped
+28,tb2,9,3,forest,0,stopped
+40,tb,4,4,open,5,moving
+50,tb2,9,3,forest,5,moving
+50,tr,6,6,open,5,moving
+52,tr2,9,5,open,5,moving
+55,tr2,9,4,open,0,stopped
+56,tb,7,3,open,0,stopped
+60,tb2,8,1,forest,0,stopped
+75,tb,7,3,open,5,moving
+100,tb2,8,1,forest,5,moving
+105,tr,10,10,urban,0,stopped
+115,tb,8,5,open,0,stopped
+125,tb2,10,4,open,0,stopped

@@ -1,0 +1,7 @@
+time,killer callsign,tgt callsign,range,tgt losses,wpn type
+40,tb,tr,20,1,test weapon
+44,tr2,tb3,23,1,test weapon
+45,tb2,tr2,27,1,test weapon
+68,tr2,tr,20,1,test weapon
+70,tb,tr2,20,1,test weapon
+90,tb2,tr2,40,1,test weapon

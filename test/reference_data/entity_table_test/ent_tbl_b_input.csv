@@ -1,0 +1,18 @@
+id,name,type,commander_id,level,affiliation,force,init_comps,cbt_per_comp,system_entity,start_entity
+ent1,blue inf 1-a,infantry,ent4,,blue,blue force,3,2,FALSE,TRUE
+ent2,blue inf 1-b,infantry,ent4,,blue,blue force,3,2,FALSE,TRUE
+ent3,blue inf 1-c,infantry,ent4,,blue,blue force,3,2,FALSE,TRUE
+ent4,blue inf 1 comd,infantry,ent9,,blue,blue force,1,1,FALSE,TRUE
+ent5,blue inf 2-a,infantry,ent8,,blue,blue force,3,2,FALSE,TRUE
+ent6,blue inf 2-b,infantry,ent8,,blue,blue force,3,2,FALSE,TRUE
+ent7,blue inf 2-c,infantry,ent8,,blue,blue force,3,2,FALSE,TRUE
+ent8,blue inf 2 comd,infantry,ent9,,blue,blue force,1,1,FALSE,TRUE
+ent9,blue inf hq,hq,ent10,,blue,blue force,1,1,FALSE,TRUE
+ent10,blue strat hq,hq,ent10,,blue,blue force,1,1,FALSE,TRUE
+ent11,blue tnk 1-1,armour,ent13,,blue,blue force,1,5,FALSE,TRUE
+ent12,blue tnk 1-2,armour,ent13,,blue,blue force,1,5,FALSE,TRUE
+ent13,blue tnk 1 sqn ldr,armour,ent17,,blue,blue force,1,5,FALSE,TRUE
+ent14,blue tnk 2-1,armour,ent16,,blue,blue force,1,5,FALSE,TRUE
+ent15,blue tnk 2-2,armour,ent16,,blue,blue force,1,5,FALSE,TRUE
+ent16,blue tnk 2 sqn ldr,armour,ent17,,blue,blue force,1,5,FALSE,TRUE
+ent17,blue tnk hq,hq,ent10,,blue,blue force,1,1,FALSE,TRUE

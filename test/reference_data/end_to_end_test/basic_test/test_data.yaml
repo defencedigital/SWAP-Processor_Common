@@ -1,0 +1,93 @@
+test_config: {serial: B,
+              case: test,
+              replication: basic}
+
+metadata_dict: {status: complete,
+                run_time: 126}
+
+blue_ent_dict: {uid: [t-b],
+                unit_name: [blue inf],
+                unit_type: [infantry],
+                affiliation: [blue],
+                init_comps: [10],
+                force: [blue force]}
+
+red_ent_dict: {uid: [t-r],
+               unit_name: [red inf],
+               unit_type: [infantry],
+               affiliation: [red],
+               init_comps: [10],
+               force: [red force]}
+
+test_ent_dict_ls: [blue_ent_dict, red_ent_dict]
+
+status_events_dict: {event_type: status,
+                      uid: [t-b, t-r],
+                      time: [0.0, 0.0],
+                      detail_keys: [status],
+                      detail_vals: [[planning],
+                                    [preparing]]}
+
+location_events_dict: {event_type: location,
+                      uid: [t-b, t-r],
+                      time: [0.1, 0.1],
+                      x: [0, 10],
+                      y: [0, 10],
+                      detail_keys: [terrain, status],
+                      detail_vals: [[open, halted],
+                                    [urban, moving]]}
+
+spot_events_dict: {event_type: spot,
+                   uid: [t-b, t-b, t-b],
+                   time: [3, 5, 7],
+                   entity: [t-r, t-r, t-r],
+                   detail_keys: [sensor, level],
+                   detail_vals: [[mk1 eyeball, detection],
+                                 [binoculars, recognition],
+                                 [wpn scope, identification]]}
+
+seen_events_dict: {event_type: seen,
+                   uid: [t-r, t-r, t-r],
+                   time: [3, 5, 7],
+                   entity: [t-b, t-b, t-b],
+                   detail_keys: [],
+                   detail_vals: [[], [], []]}
+
+stop_events_dict: {event_type: stop,
+                    uid: [t-r, t-b],
+                    time: [8, 8.2],
+                    entity: [t-b, t-r],
+                    detail_keys: [],
+                    detail_vals: [[], []]}
+
+add_event_dict_ls: [status_events_dict, location_events_dict, spot_events_dict, seen_events_dict, stop_events_dict]
+
+tb_shots_dict: {event_type: shot,
+                uid: t-b,
+                target_list: [shots_time],
+                data_vals: [[8, 9, 13, 21]],
+                detail_list: shots_detail,
+                detail_keys: [weapon, rds],
+                detail_vals: [[rifle, rifle, rifle, rifle],
+                                [3, 6, 9, 12]]}
+
+tb_kills_dict: {event_type: kill,
+                uid: t-b,
+                target_list: [kills_time, kills_victim],
+                data_vals: [[11, 12, 14, 22, 23],
+                            [t-r, t-r, t-r, t-r, t-r]],
+                detail_list: kills_detail,
+                detail_keys: [weapon, range],
+                detail_vals: [[rifle, rifle, rifle, rifle, rifle],
+                              [14.1, 14.1, 14.1, 14.1, 14.1]]}
+
+tr_losses_dict: {event_type: loss,
+                 uid: t-r,
+                 target_list: [losses_time, losses_killer],
+                 data_vals: [[11, 12, 14, 22, 23.2],
+                             [t-b, t-b, t-b, t-b, t-b]],
+                 detail_list: losses_detail,
+                 detail_keys: [morale],
+                 detail_vals: [[good, ok, ok, ok, poor,]]}
+
+append_event_dict_ls: [tb_shots_dict, tb_kills_dict, tr_losses_dict]

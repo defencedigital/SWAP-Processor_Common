@@ -1,0 +1,28 @@
+case: E2E test
+cbt_pwr_unit: cbt pwr
+data_date: 01/01/1970
+data_details: complex end to end test
+data_name: test data
+distance_unit: metres
+drop_location_events: false
+drop_seen_events: false
+drop_shot_events: false
+drop_spot_events: false
+entity_data_from_table: false
+entity_table_file: entity_data_table.csv
+force_unique_unit_names: true
+input_location: reference_data\end_to_end_test\complex_test
+model_name: CDF processor pytest test suite
+output_location: Output\EndToEndTest\complex_test
+replication: complex test
+serial: C
+split_files_by_type: false
+time_unit: seconds
+status: complete
+run_time: 25600
+add_meta_key: add_meta_value
+total_entities: 17
+total_events: 126
+total_forces_and_affiliations: 7
+first_event: 0.0 seconds
+last_event: 140.1 seconds

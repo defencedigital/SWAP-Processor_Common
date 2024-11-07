@@ -1,0 +1,9 @@
+time,firing callsign,rds fired,rd type
+30,tb,3,test fire
+34,tr2,3,test_fire
+35,tr,2,test_fire
+38,tb3,3,test_fire
+39,tb2,1,test_fire
+64,tr2,1,test_fire
+67,tb,3,test_fire
+75,tb2,2,test_fire

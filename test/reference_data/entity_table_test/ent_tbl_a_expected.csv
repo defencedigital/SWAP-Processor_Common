@@ -1,0 +1,7 @@
+case,rep,id,name,type,commander_id,commander_name,level,affiliation,force,init_comps,cbt_per_comp,init_cbt_pwr,system_entity,start_entity,time_added,total_events,status_events,location_events,seen_events,spot_events,stop_events,shot_events,kill_events,loss_events
+case_name,rep_num,t1,blue inf 1,infantry,t3,blue hq,3,blue,blue force,1,1,1,FALSE,TRUE,0,0,0,0,0,0,0,0,0,0
+case_name,rep_num,t2,blue inf 2,infantry,t3,blue hq,3,blue,blue force,1,1,1,FALSE,TRUE,0,0,0,0,0,0,0,0,0,0
+case_name,rep_num,t3,blue hq,hq,t3,blue hq,1,blue,blue force,1,1,1,FALSE,TRUE,0,0,0,0,0,0,0,0,0,0
+case_name,rep_num,t4,red inf 1,infantry,t6,red hq,3,red,red force,1,1,1,FALSE,TRUE,0,0,0,0,0,0,0,0,0,0
+case_name,rep_num,t5,red inf 2,infantry,t6,red hq,3,red,red force,1,1,1,FALSE,TRUE,0,0,0,0,0,0,0,0,0,0
+case_name,rep_num,t6,red hq,hq,t6,red hq,1,red,red force,1,1,1,FALSE,TRUE,0,0,0,0,0,0,0,0,0,0

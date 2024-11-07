@@ -1,0 +1,18 @@
+case,rep,id,name,type,commander_id,commander_name,level,affiliation,force,init_comps,cbt_per_comp,init_cbt_pwr,system_entity,start_entity,time_added,total_events,status_events,location_events,seen_events,spot_events,stop_events,shot_events,kill_events,loss_events
+E2E test,cplx-splt-files,game,game state,system,game,game state,1,system,system - Force,0,0,0,TRUE,TRUE,0,2,2,0,0,0,0,0,0,0
+E2E test,cplx-splt-files,obj-blue,blue objective,system,game,game state,2,system,system - Force,0,0,0,TRUE,TRUE,0,1,1,0,0,0,0,0,0,0
+E2E test,cplx-splt-files,obj-red,red objective,system,game,game state,2,system,system - Force,0,0,0,TRUE,TRUE,0,1,1,0,0,0,0,0,0,0
+E2E test,cplx-splt-files,t-b1,blue inf,infantry sect,t-b3,blue inf comd,3,blue,blue force,10,2,20,FALSE,TRUE,0.1,26,0,5,3,3,1,3,1,10
+E2E test,cplx-splt-files,t-b2,blue inf-2,infantry sect,t-b3,blue inf comd,3,blue,blue force,10,2,20,FALSE,TRUE,0.2,13,0,2,3,3,1,2,1,1
+E2E test,cplx-splt-files,t-b3,blue inf comd,infantry comd sect,t-b5,blue hq,2,blue,blue force,10,1,10,FALSE,TRUE,0,5,0,2,1,0,0,1,1,0
+E2E test,cplx-splt-files,t-b4,blue snpr,sniper pair,t-b5,blue hq,2,blue,blue force,2,8,16,FALSE,FALSE,0.5,12,0,2,0,2,2,5,1,0
+E2E test,cplx-splt-files,t-b5,blue hq,hq,t-b5,blue hq,1,blue,blue force,5,0,0,FALSE,TRUE,0,0,0,0,0,0,0,0,0,0
+E2E test,cplx-splt-files,t-g1,green inf Alpha,infantry sect,t-b3,blue inf comd,3,green,blue force,10,3,30,FALSE,FALSE,1.1,8,0,2,1,1,1,2,0,1
+E2E test,cplx-splt-files,t-g2,green inf Bravo,infantry sect,t-b3,blue inf comd,3,green,blue force,10,3,30,FALSE,FALSE,1.2,6,0,2,1,1,0,1,1,0
+E2E test,cplx-splt-files,t-r1,red inf,infantry sect,t-r7,red hq,2,red,red - Force,12,2,24,FALSE,TRUE,0,11,0,1,3,3,1,1,1,1
+E2E test,cplx-splt-files,t-r2,red inf-2,infantry sect,t-r7,red hq,2,red,red - Force,12,2,24,FALSE,TRUE,0,11,0,1,3,3,1,1,1,1
+E2E test,cplx-splt-files,t-r3,red AT,AT sect,t-r7,red hq,2,red,red - Force,8,4,32,FALSE,TRUE,0,9,0,1,2,3,1,1,0,1
+E2E test,cplx-splt-files,t-r4,red apc,vehicle,t-r1,red inf,3,red,red - Force,1,3,3,FALSE,TRUE,0,2,0,1,0,0,0,1,0,0
+E2E test,cplx-splt-files,t-r5,red apc-2,vehicle,t-r2,red inf-2,3,red,red - Force,1,3,3,FALSE,TRUE,0,14,0,1,0,0,0,3,10,0
+E2E test,cplx-splt-files,t-r6,red apc-3,vehicle,t-r3,red AT,3,red,red - Force,1,3,3,FALSE,TRUE,0,3,0,1,0,0,0,1,0,1
+E2E test,cplx-splt-files,t-r7,red hq,hq,t-r7,red hq,1,red,red - Force,3,0,0,FALSE,TRUE,0,2,0,0,1,0,0,0,0,1

@@ -1,0 +1,3 @@
+case,rep,id,name,type,commander_id,commander_name,level,affiliation,force,init_comps,cbt_per_comp,init_cbt_pwr,system_entity,start_entity,time_added,total_events,status_events,location_events,seen_events,spot_events,stop_events,shot_events,kill_events,loss_events
+test,basic-ent-tbl,t-b,blue inf,infantry,not set,,,blue,blue force,10,1,,FALSE,TRUE,,,,,,,,,,
+test,basic-ent-tbl,t-r,red inf,infantry,not set,,,red,red force,10,1,,FALSE,TRUE,,,,,,,,,,

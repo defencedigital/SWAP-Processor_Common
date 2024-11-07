@@ -1,0 +1,27 @@
+case: test
+cbt_pwr_unit: not defined
+data_date: not defined
+data_details: not defined
+data_name: not defined
+distance_unit: not defined
+drop_location_events: false
+drop_seen_events: false
+drop_shot_events: false
+drop_spot_events: false
+entity_data_from_table: false
+entity_table_file: entity_data_table.csv
+force_unique_unit_names: true
+input_location: reference_data\end_to_end_test\basic_test
+model_name: not defined
+output_location: Output\EndToEndTest\basic_test
+replication: basic
+serial: B
+split_files_by_type: false
+time_unit: not defined
+status: complete
+run_time: 126
+total_entities: 2
+total_events: 26
+total_forces_and_affiliations: 4
+first_event: 0.0 not defined
+last_event: 23.2 not defined

@@ -1,0 +1,11 @@
+case,rep,id,name,type,commander_id,commander_name,level,affiliation,force,init_comps,cbt_per_comp,init_cbt_pwr,system_entity,start_entity,time_added,total_events,status_events,location_events,seen_events,spot_events,stop_events,shot_events,kill_events,loss_events
+case_name,rep_num,ent1,green inf pl,infantry,ent2,green comd,2,green,blue - Force,9,1,9,FALSE,FALSE,0,0,0,0,0,0,0,0,0,0
+case_name,rep_num,ent2,green comd,hq,ent2,green comd,1,green,blue - Force,3,0,0,FALSE,FALSE,0,0,0,0,0,0,0,0,0,0
+case_name,rep_num,ent3,blue inf pl,infantry,ent4,blue comd,2,blue,blue - Force,9,1,9,FALSE,TRUE,0,0,0,0,0,0,0,0,0,0
+case_name,rep_num,ent4,blue comd,hq,ent4,blue comd,1,blue,blue - Force,3,0,0,FALSE,TRUE,0,0,0,0,0,0,0,0,0,0
+case_name,rep_num,ent5,yellow inf pl,infantry,ent6,yellow comd,2,yellow,red - Force,9,1,9,TRUE,TRUE,0,0,0,0,0,0,0,0,0,0
+case_name,rep_num,ent6,yellow comd,hq,ent6,yellow comd,1,yellow,red - Force,3,0,0,TRUE,TRUE,0,0,0,0,0,0,0,0,0,0
+case_name,rep_num,ent7,orange inf pl,infantry,ent8,orange comd,2,orange,red - Force,9,1,9,TRUE,FALSE,0,0,0,0,0,0,0,0,0,0
+case_name,rep_num,ent8,orange comd,hq,ent8,orange comd,1,orange,red - Force,3,0,0,TRUE,FALSE,0,0,0,0,0,0,0,0,0,0
+case_name,rep_num,ent9,red inf pl,infantry,ent10,red comd,2,red,red - Force,9,1,9,FALSE,TRUE,0,0,0,0,0,0,0,0,0,0
+case_name,rep_num,ent10,red comd,hq,ent10,red comd,1,red,red - Force,3,0,0,FALSE,TRUE,0,0,0,0,0,0,0,0,0,0

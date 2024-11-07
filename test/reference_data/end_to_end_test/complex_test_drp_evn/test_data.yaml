@@ -1,0 +1,347 @@
+test_config: {serial: CD,
+              case: E2E test,
+              replication: cplx-drp-evnts,
+              cbt_pwr_unit: cbt pwr,
+              data_date: 01/01/1970,
+              data_details: complex end to end test,
+              data_name: test data,
+              distance_unit: metres,
+              model_name: CDF processor pytest test suite,
+              time_unit: seconds,
+              drop_location_events: 1,
+              drop_shot_events: 1,
+              drop_seen_events: 1,
+              drop_spot_events: 1}
+
+metadata_dict: {status: complete,
+                run_time: 25600,
+                add_meta_key: add_meta_value}
+
+system_ent_dict: {uid: [game, obj-blue, obj-red],
+                  unit_name: [game state, blue objective, red objective],
+                  unit_type: [system, system, system],
+                  commander: [game, game, game],
+                  system_entity: [True, True, True],
+                  init_comps: [0, 0, 0],
+                  cbt_per_comp: [0, 0, 0],
+                  affiliation: [system, system, system]}
+
+blue_ent_dict: {uid: [t-b1, t-b2, t-b3, t-b4, t-b5],
+                unit_name: [blue inf, blue inf, blue inf comd, blue snpr, blue hq],
+                unit_type: [infantry sect, infantry sect, infantry comd sect, sniper pair, hq],
+                commander: [t-b3, t-b3, t-b5, t-b5, t-b5],
+                affiliation: [blue, blue, blue, blue, blue],
+                init_comps: [10, 10, 10, 2, 5],
+                cbt_per_comp: [2, 2, 1, 8, 0],
+                start_entity: [True, True, True, False, True],
+                add_time: [0.1, 0.2, 0.0, 0.5, 0.0],
+                force: [blue force, blue force, blue force, blue force, blue force]}
+
+green_ent_dict: {uid: [t-g1, t-g2],
+                unit_name: [green inf Alpha, green inf Bravo],
+                unit_type: [infantry sect, infantry sect],
+                commander: [t-b3, t-b3],
+                affiliation: [green, green],
+                init_comps: [10, 10],
+                cbt_per_comp: [3, 3],
+                start_entity: [False, False],
+                add_time: [1.1, 1.2],
+                force: [blue force, blue force]}
+
+red_ent_dict: {uid: [t-r1, t-r2, t-r3, t-r4, t-r5, t-r6, t-r7],
+               unit_name: [red inf, red inf, red AT, red apc, red apc, red apc, red hq],
+               unit_type: [infantry sect, infantry sect, AT sect, vehicle, vehicle, vehicle, hq],
+               commander: [t-r7, t-r7, t-r7, t-r1, t-r2, t-r3, t-r7],
+               affiliation: [red, red, red, red, red, red, red],
+               init_comps: [12, 12, 8, 1, 1, 1, 3],
+               cbt_per_comp: [2, 2, 4, 3, 3, 3, 0],
+               force: [red, red, red, red, red, red, red]}
+
+test_ent_dict_ls: [system_ent_dict, blue_ent_dict, green_ent_dict, red_ent_dict]
+
+obj_status_events_dict: {event_type: status,
+                        uid: [obj-blue, obj-red],
+                        time: [120.0, 136.2],
+                        detail_keys: [objective],
+                        detail_vals: [[complete],
+                                      [failed]]}
+
+red_init_location_events_dict: {event_type: location,
+                                uid: [t-r1, t-r2, t-r3, t-r4, t-r5, t-r6],
+                                time: [1.2, 1.3, 0.9, 0.7, 1.1, 0.95],
+                                x: [3.2, 3.6, 4.0, 3.2, 3.6, 4.0 ],
+                                y: [1.5, 1.5, 1.5, 1.5, 1.5, 1.5],
+                                detail_keys: [terrain, status],
+                                detail_vals: [[open, halted],
+                                              [open, halted],
+                                              [open, halted],
+                                              [open, waiting],
+                                              [open, waiting],
+                                              [open]]}
+
+blue_init_location_events_dict: {event_type: location,
+                                uid: [t-b1, t-b2, t-b3, t-b4],
+                                time: [0.1, 1.5, 0.3, 1.6],
+                                x: [10.7, 10.7, 10.7, 13.3],
+                                y: [12.2, 12.5, 12.8, 17.2],
+                                detail_keys: [terrain],
+                                detail_vals: [[urban],
+                                              [urban],
+                                              [urban],
+                                              [urban, hiding]]}
+
+green_init_location_events_dict: {event_type: location,
+                                  uid: [t-g1, t-g2],
+                                  time: [1.8, 1.85],
+                                  x: [10.2, 10.3, 10.7, 13.3],
+                                  y: [12.5, 12.7],
+                                  detail_keys: [],
+                                  detail_vals: [[], []]}
+
+blue_move_location_events_dict: {event_type: location,
+                                uid: [t-b1, t-b2, t-b3, t-b4],
+                                time: [103, 102, 107, 99],
+                                x: [4.2, 4.6, 3.9, 3.2],
+                                y: [5.1, 4.9, 5.2, 12.1],
+                                detail_keys: [terrain],
+                                detail_vals: [['o,p:e n'],
+                                              ['o{pe}n'],
+                                              ['o"p,en'],
+                                              [open, in position]]}
+
+green_move_location_events_dict: {event_type: location,
+                                  uid: [t-g1, t-g2],
+                                  time: [104, 105],
+                                  x: [5.2, 5.1],
+                                  y: [5.3, 4.7],
+                                  detail_keys: [status],
+                                  detail_vals: [[advancing],
+                                                [advancing]]}
+
+blue_spot_events_dict: {event_type: spot,
+                       uid: [t-b1, t-b1, t-b1, t-b2, t-b2, t-b2, t-g1, t-g2],
+                       time: [110.1, 111.2, 112.3, 113.75, 114.1, 114.7, 109.2, 111.5],
+                       entity: [t-r1, t-r2, t-r3, t-r1, t-r2, t-r3, t-r1, t-r2],
+                       detail_keys: [level],
+                       detail_vals: [[recognition],
+                                     [recognition],
+                                     [recognition],
+                                     [recognition],
+                                     [recognition],
+                                     [recognition],
+                                     [recognition],
+                                     [recognition]]}
+
+blue_stop_events_dict: {event_type: stop,
+                        uid: [t-b1, t-b2, t-g1],
+                              time: [120.7, 122.3, 121.2],
+                              entity: [t-r1, t-r1, t-r1],
+                              detail_keys: [cause],
+                              detail_vals: [[lost sight],
+                                            [target hiding],
+                                            [forgot]]}
+
+red_seen_events_dict: {event_type: seen,
+                       uid: [t-r1, t-r2, t-r3, t-r1, t-r2, t-r3, t-r1, t-r2],
+                       time: [110.1, 111.2, 112.3, 113.75, 114.1, 114.7, 109.2, 111.5],
+                       entity: [t-b1, t-b1, t-b1, t-b2, t-b2, t-b2, t-g1, t-g2],
+                       detail_keys: [],
+                       detail_vals: [[], [], [], [], [], [], [], []]}
+
+red_spot_events_dict: {event_type: spot,
+                       uid: [t-r1, t-r1, t-r2, t-r2, t-r3, t-r3, t-r3, t-r1, t-r2],
+                       time: [100.2, 99.1, 98.3, 102.4, 104.9, 110.2, 103.8, 102.3, 112.2],
+                       entity: [t-b1, t-b2, t-b1, t-b2, t-b1, t-b2, t-b3, t-g1, t-g2],
+                       detail_keys: [level],
+                       detail_vals: [[detection],
+                                     [detection],
+                                     [detection],
+                                     [detection],
+                                     [detection],
+                                     [detection],
+                                     [detection],
+                                     [detection],
+                                     [detection]]}
+
+red_stop_events_dict: {event_type: stop,
+                      uid: [t-r1, t-r2, t-r3],
+                      time: [112.8, 113.9, 110.4],
+                      entity: [t-b1, t-b2, t-b1],
+                      detail_keys: [reason],
+                      detail_vals: [[lost sight],
+                                    [fog],
+                                    [grit in eye]]}
+
+blue_seen_events_dict: {event_type: seen,
+                       uid: [t-b1, t-b2, t-b1, t-b2, t-b1, t-b2, t-b3, t-g1, t-g2],
+                       time: [100.2, 99.1, 98.3, 102.4, 104.9, 110.2, 103.8, 102.3, 112.2],
+                       entity: [t-r1, t-r1, t-r2, t-r2, t-r3, t-r3, t-r3, t-r1, t-r2],
+                       detail_keys: [],
+                       detail_vals: [[], [], [], [], [], [], [], [], []]}
+
+blue_shot_events_dict: {event_type: shot,
+                        uid: [t-b1, t-b1, t-b1, t-b2, t-b2, t-b3, t-g1, t-g1, t-g2],
+                        time: [120, 122.1, 123.5, 124.6, 125.9, 126.2, 128.1, 129.1, 129.2],
+                        detail_keys: [weapon, rds],
+                        detail_vals: [[rifle, 6],
+                                      [rifle, 9],
+                                      [rifle, 12],
+                                      [rifle],
+                                      [MG, 40],
+                                      [MG, 30],
+                                      [rifle, 9],
+                                      [rifle, 9],
+                                      [LAW, 1]]}
+
+blue_kill_events_dict: {event_type: kill,
+                        uid: [t-b1, t-b2, t-b3, t-g2],
+                        time: [123.6, 126.2, 126.5, 131.2],
+                        entity: [t-r1, t-r2, t-r3, t-r6],
+                        detail_keys: [weapon],
+                        detail_vals: [[rifle], [rifle], [MG], [LAW]]}
+
+red_loss_events_dict: {event_type: loss,
+                        uid: [t-r1, t-r2, t-r3, t-r6],
+                        time: [123.7, 126.3, 126.6, 131.3],
+                        entity: [t-b1, t-b2, t-b3, t-g2],
+                        detail_keys: [],
+                        detail_vals: [[], [], [], []]}
+
+red_shot_events_dict: {event_type: shot,
+                        uid: [t-r1, t-r2, t-r3, t-r4, t-r5, t-r6, t-r5, t-r5],
+                        time: [121.3, 120.9, 124.2, 125.6, 125.7, 126.3, 132.3, 134.1],
+                        detail_keys: [weapon, rds],
+                        detail_vals: [[rifle, 6],
+                                      [rifle, 9],
+                                      [AT, 3],
+                                      [cannon],
+                                      [cannon],
+                                      [cannon],
+                                      [cannon],
+                                      [cannon],
+                                      [cannon]]}
+
+red_kill_events_dict: {event_type: kill,
+                      uid: [t-r1, t-r2, t-r5, t-r5, t-r5, t-r5, t-r5, t-r5, t-r5, t-r5, t-r5, t-r5],
+                      time: [121.5, 121.9, 126.1, 126.2, 132.5, 132.7, 132.8, 134.5, 134.8, 135.1, 135.2, 135.4],
+                      entity: [t-b1, t-b2, t-b1, t-b1, t-b1, t-b1, t-b1, t-b1, t-b1, t-b1, t-b1, t-g1],
+                      detail_keys: [weapon],
+                      detail_vals: [[rifle],
+                                    [rifle],
+                                    [cannon],
+                                    [cannon],
+                                    [cannon],
+                                    [cannon],
+                                    [cannon],
+                                    [cannon],
+                                    [cannon],
+                                    [cannon],
+                                    [cannon],
+                                    [cannon]]}
+
+blue_loss_events_dict: {event_type: loss,
+                        uid: [t-b1, t-b2, t-b1, t-b1, t-b1, t-b1, t-b1, t-b1, t-b1, t-b1, t-b1, t-g1],
+                        time: [121.5, 121.9, 126.1, 126.2, 132.5, 132.7, 132.8, 134.5, 134.8, 135.1, 135.2, 135.4],
+                        entity: [t-r1, t-r2, t-r5, t-r5, t-r5, t-r5, t-r5, t-r5, t-r5, t-r5, t-r5, t-r5],
+                        detail_keys: [morale],
+                        detail_vals: [[good],
+                                      [],
+                                      [good],
+                                      [good],
+                                      [ok],
+                                      [ok],
+                                      [not great],
+                                      [poor],
+                                      [really bad],
+                                      [extremely bad],
+                                      [],
+                                      []]}
+
+add_event_dict_ls: [obj_status_events_dict,
+                    red_init_location_events_dict, blue_init_location_events_dict, green_init_location_events_dict,
+                    blue_move_location_events_dict, green_move_location_events_dict,
+                    blue_spot_events_dict, blue_stop_events_dict, red_seen_events_dict,
+                    red_spot_events_dict, red_stop_events_dict, blue_seen_events_dict,
+                    blue_shot_events_dict, blue_kill_events_dict, red_loss_events_dict,
+                    red_shot_events_dict, red_kill_events_dict, blue_loss_events_dict]
+
+game_state_dict: {event_type: status,
+                  uid: game,
+                  target_list: [state_time],
+                  data_vals: [[0, 140.1]],
+                  detail_list: state_detail,
+                  detail_keys: [status],
+                  detail_vals: [[starting, complete]]}
+
+
+tb1_add_moves_dict: {event_type: location,
+                    uid: t-b1,
+                    target_list: [location_time, location_x, location_y],
+                    data_vals: [[55.3, 56, 57],
+                                [8.1, 8.3, 8.9],
+                                [7.1, 6.4, 7.1]],
+                    detail_list: location_detail,
+                    detail_keys: [terrain, status],
+                    detail_vals: [[obstacle, obstacle, obstacle],
+                                  [bypassing, bypassing, bypassing]]}
+
+tb4_spots_dict: {event_type: spot,
+                  uid: t-b4,
+                  target_list: [spot_time, spot_entity],
+                  data_vals: [[114.9, 115.1],
+                              [t-r7, t-r7]],
+                  detail_list: spot_detail,
+                  detail_keys: [level, status],
+                  detail_vals: [[sighting, confirmed],
+                                [identifying, targeting]]}
+
+tb4_stop_dict: {event_type: stop,
+                uid: t-b4,
+                target_list: [stop_time, stop_entity],
+                data_vals: [[120.2, 120.5],
+                            [t-r7, t-r7]],
+                detail_list: stop_detail,
+                detail_keys: [status],
+                detail_vals: [[disengaging, evading]]}
+
+tb4_shots_dict: {event_type: shot,
+                uid: t-b4,
+                target_list: [shots_time],
+                data_vals: [[116.3, 118,118.5, 119, 119.5]],
+                detail_list: shots_detail,
+                detail_keys: [shot type],
+                detail_vals: [[ranging, miss, miss, miss, kill]]}
+
+
+tb4_kills_dict: {event_type: kill,
+                uid: t-b4,
+                target_list: [kills_time, kills_victim],
+                data_vals: [[119.8],
+                            [t-r7]],
+                detail_list: kills_detail,
+                detail_keys: [weapon, range],
+                detail_vals: [[sniper rifle],
+                              [extreme]]}
+
+tr7_seen_dict: {event_type: seen,
+                uid: t-r7,
+                target_list: [seen_time, seen_entity],
+                data_vals: [[115.1],
+                            [t-b4]],
+                detail_list: seen_detail,
+                detail_keys: [''],
+                detail_vals: [['']]}
+
+tr7_losses_dict: {event_type: loss,
+                 uid: t-r7,
+                 target_list: [losses_time, losses_killer],
+                 data_vals: [[119.8],
+                             [t-b4]],
+                 detail_list: losses_detail,
+                 detail_keys: [status],
+                 detail_vals: [[finding cover]]}
+
+append_event_dict_ls: [game_state_dict, tb1_add_moves_dict,
+                       tb4_spots_dict, tb4_stop_dict,
+                       tb4_shots_dict, tb4_kills_dict,
+                       tr7_seen_dict, tr7_losses_dict]

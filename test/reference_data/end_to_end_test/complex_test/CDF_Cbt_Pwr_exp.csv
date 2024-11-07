@@ -1,0 +1,42 @@
+case,rep,time,item,components,combat_power,event_id
+E2E test,complex test,0.0,blue,37,66,none
+E2E test,complex test,0.0,blue force,57,126,none
+E2E test,complex test,0.0,green,20,60,none
+E2E test,complex test,0.0,red,38,89,none
+E2E test,complex test,0.0,red - Force,38,89,none
+E2E test,complex test,0.0,system,0,0,none
+E2E test,complex test,0.0,system - Force,0,0,none
+E2E test,complex test,119.8,red,37,89,loss-17
+E2E test,complex test,119.8,red - Force,37,89,loss-17
+E2E test,complex test,121.5,blue,36,64,loss-5
+E2E test,complex test,121.5,blue force,56,124,loss-5
+E2E test,complex test,121.9,blue,35,62,loss-6
+E2E test,complex test,121.9,blue force,55,122,loss-6
+E2E test,complex test,123.7,red,36,87,loss-1
+E2E test,complex test,123.7,red - Force,36,87,loss-1
+E2E test,complex test,126.1,blue,34,60,loss-7
+E2E test,complex test,126.1,blue force,54,120,loss-7
+E2E test,complex test,126.2,blue,33,58,loss-8
+E2E test,complex test,126.2,blue force,53,118,loss-8
+E2E test,complex test,126.3,red,35,85,loss-2
+E2E test,complex test,126.3,red - Force,35,85,loss-2
+E2E test,complex test,126.6,red,34,81,loss-3
+E2E test,complex test,126.6,red - Force,34,81,loss-3
+E2E test,complex test,131.3,red,33,78,loss-4
+E2E test,complex test,131.3,red - Force,33,78,loss-4
+E2E test,complex test,132.5,blue,32,56,loss-9
+E2E test,complex test,132.5,blue force,52,116,loss-9
+E2E test,complex test,132.7,blue,31,54,loss-10
+E2E test,complex test,132.7,blue force,51,114,loss-10
+E2E test,complex test,132.8,blue,30,52,loss-11
+E2E test,complex test,132.8,blue force,50,112,loss-11
+E2E test,complex test,134.5,blue,29,50,loss-12
+E2E test,complex test,134.5,blue force,49,110,loss-12
+E2E test,complex test,134.8,blue,28,48,loss-13
+E2E test,complex test,134.8,blue force,48,108,loss-13
+E2E test,complex test,135.1,blue,27,46,loss-14
+E2E test,complex test,135.1,blue force,47,106,loss-14
+E2E test,complex test,135.2,blue,26,44,loss-15
+E2E test,complex test,135.2,blue force,46,104,loss-15
+E2E test,complex test,135.4,blue force,45,101,loss-16
+E2E test,complex test,135.4,green,19,57,loss-16

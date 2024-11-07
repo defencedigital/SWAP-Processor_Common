@@ -1,0 +1,8 @@
+id,name,type,commander_id,level,affiliation,force,init_comps,cbt_per_comp,system_entity,start_entity
+ent1,red inf sect 1,infantry,ent7,2,red,red force,3,1,FALSE,TRUE
+ent2,red inf sect 2,infantry,ent7,2,red,red force,3,1,FALSE,TRUE
+ent3,red inf snpr,infantry,ent7,2,red,red force,1,9,FALSE,TRUE
+ent4,red inf MG sect,infantry,ent7,2,red,red force,6,3,FALSE,TRUE
+ent5,red inf AT sect,infantry,ent7,2,red,red force,2,6,FALSE,TRUE
+ent6,red inf sp sect,infantry,ent7,2,red,red force,1,0,FALSE,TRUE
+ent7,red comd,hq,ent7,1,red,red force,3,0,FALSE,TRUE

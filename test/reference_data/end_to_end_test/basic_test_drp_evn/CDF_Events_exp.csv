@@ -1,0 +1,15 @@
+case,rep,time,primary_entity_id,primary_entity_name,primary_entity_type,primary_entity_commander,primary_entity_level,primary_entity_affiliation,primary_entity_force,primary_x,primary_y,event_id,event_type,event_detail,secondary_entity_id,secondary_entity_name,secondary_entity_type,secondary_entity commander,secondary_entity_level,secondary_entity_affiliation,secondary_entity_force,secondary_x,secondary_y
+test,basic-drp-evnts,0.0,t-b,blue inf,infantry,not set,1,blue,blue force,,,status-1,status update,"{""status"":""planning""}",,,,,,,,,
+test,basic-drp-evnts,0.0,t-r,red inf,infantry,not set,1,red,red force,,,status-2,status update,"{""status"":""preparing""}",,,,,,,,,
+test,basic-drp-evnts,8.0,t-r,red inf,infantry,not set,1,red,red force,10.0,10.0,stop-1,stopped seeing secondary,{},t-b,blue inf,infantry,not set,1.0,blue,blue force,0.0,0.0
+test,basic-drp-evnts,8.2,t-b,blue inf,infantry,not set,1,blue,blue force,0.0,0.0,stop-2,stopped seeing secondary,{},t-r,red inf,infantry,not set,1.0,red,red force,10.0,10.0
+test,basic-drp-evnts,11.0,t-b,blue inf,infantry,not set,1,blue,blue force,0.0,0.0,kill-1,kill,"{""weapon"":""rifle"", ""range"":""14.1""}",t-r,red inf,infantry,not set,1.0,red,red force,10.0,10.0
+test,basic-drp-evnts,11.0,t-r,red inf,infantry,not set,1,red,red force,10.0,10.0,loss-1,loss,"{""morale"":""good""}",t-b,blue inf,infantry,not set,1.0,blue,blue force,0.0,0.0
+test,basic-drp-evnts,12.0,t-b,blue inf,infantry,not set,1,blue,blue force,0.0,0.0,kill-2,kill,"{""weapon"":""rifle"", ""range"":""14.1""}",t-r,red inf,infantry,not set,1.0,red,red force,10.0,10.0
+test,basic-drp-evnts,12.0,t-r,red inf,infantry,not set,1,red,red force,10.0,10.0,loss-2,loss,"{""morale"":""ok""}",t-b,blue inf,infantry,not set,1.0,blue,blue force,0.0,0.0
+test,basic-drp-evnts,14.0,t-b,blue inf,infantry,not set,1,blue,blue force,0.0,0.0,kill-3,kill,"{""weapon"":""rifle"", ""range"":""14.1""}",t-r,red inf,infantry,not set,1.0,red,red force,10.0,10.0
+test,basic-drp-evnts,14.0,t-r,red inf,infantry,not set,1,red,red force,10.0,10.0,loss-3,loss,"{""morale"":""ok""}",t-b,blue inf,infantry,not set,1.0,blue,blue force,0.0,0.0
+test,basic-drp-evnts,22.0,t-b,blue inf,infantry,not set,1,blue,blue force,0.0,0.0,kill-4,kill,"{""weapon"":""rifle"", ""range"":""14.1""}",t-r,red inf,infantry,not set,1.0,red,red force,10.0,10.0
+test,basic-drp-evnts,22.0,t-r,red inf,infantry,not set,1,red,red force,10.0,10.0,loss-4,loss,"{""morale"":""ok""}",t-b,blue inf,infantry,not set,1.0,blue,blue force,0.0,0.0
+test,basic-drp-evnts,23.0,t-b,blue inf,infantry,not set,1,blue,blue force,0.0,0.0,kill-5,kill,"{""weapon"":""rifle"", ""range"":""14.1""}",t-r,red inf,infantry,not set,1.0,red,red force,10.0,10.0
+test,basic-drp-evnts,23.2,t-r,red inf,infantry,not set,1,red,red force,10.0,10.0,loss-5,loss,"{""morale"":""poor""}",t-b,blue inf,infantry,not set,1.0,blue,blue force,0.0,0.0

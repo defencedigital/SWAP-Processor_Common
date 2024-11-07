@@ -1,0 +1,11 @@
+id,name,type,commander_id,level,affiliation,force,init_comps,cbt_per_comp,system_entity,start_entity
+ent1,green inf pl,infantry,ent2,2,green,blue,9,1,FALSE,FALSE
+ent2,green comd,hq,ent2,1,green,blue,3,0,FALSE,FALSE
+ent3,blue inf pl,infantry,ent4,2,blue,blue,9,1,FALSE,TRUE
+ent4,blue comd,hq,ent4,1,blue,blue,3,0,FALSE,TRUE
+ent5,yellow inf pl,infantry,ent6,2,yellow,red,9,1,TRUE,TRUE
+ent6,yellow comd,hq,ent6,1,yellow,red,3,0,TRUE,TRUE
+ent7,orange inf pl,infantry,ent8,2,orange,red,9,1,TRUE,FALSE
+ent8,orange comd,hq,ent8,1,orange,red,3,0,TRUE,FALSE
+ent9,red inf pl,infantry,ent10,2,red,red,9,1,FALSE,TRUE
+ent10,red comd,hq,ent10,1,red,red,3,0,FALSE,TRUE

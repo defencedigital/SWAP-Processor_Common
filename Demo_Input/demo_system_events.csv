@@ -1,0 +1,6 @@
+time,type,message
+0,simulation,loading data
+0,simualtion,starting
+90,objective update,blue objective achieved
+130,simulation,stopping
+130,simualtion,shutting down
